@@ -1,37 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/estilos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedro HBr</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/12ed7bdb32.js" crossorigin="anonymous"></script>
+    <title>Pedro HBr - Ilustração</title>
 </head>
 <body>
+
     <header>
-        <nav class="menu">
-          <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Portfólio</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </nav>
-        <div>
-          <h1 class="site-title">Pedro HBr</h1>
-          <h2 class="site-subtitle">Designer de Marca</h2>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#trabalhos">Trabalho</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="cabecalho">
+                <img class="avatar1" src="./img/perfil.jpg" alt="Avatar de Pedro">
+                <h1 class="titulo">Pedro HBr</h1>
+                <h2 class="sub-titulo">Ilustrador</h2>
+            <div class="header-bg"></div>
         </div>
     </header>
-    <section>
-      <h2>Último Trabalho</h2>
-        <div>
-          <figure>
-            <img class='img-portfolio' src='./img/brisa1.jpg' alt='Logo Brisa Amazônica'>
-            <figurecaption>Ilustração para marca Brisa Amazônica</figurecaption>
-          </figure>
-          <figure>
-            <img class='img-portfolio' src='./img/brisa2.jpg' alt='Logo  aplicada Brisa Amazônica'>
-            <figurecaption>Aplicação para marca Brisa Amazônica</figurecaption>
-          </figure>
-        </div>
+
+    <section class="sobre" id="sobre">
+        <h2 class="titulo-section">Sobre</h2>
+        <p class="descricao-sobre">Sou ilustrador e designer, quase graduado em Comunicação Social. Ilustro o lifestyle da cultura urbana e tenho como principal referência visual o estilo cartoon de MC Bess e Bryan Lee O'Malley.</p>
     </section>
+
+    <section class="trabalhos" id="trabalhos">
+            <h2 class="titulo-section">Trabalhos</h2>
+            <div class="trabalhos-grid">
+                <figure>
+                    <img src="./img/morripelaboca.png" alt="Ilustração Morri Pela Boca">
+                    <figcaption>Ilustração - Morri Pela Boca</figcaption>
+                </figure>
+                <figure>
+                    <img src="./img/headshop.jpg" alt="Logotipo Brisa Amazônica Headshop">
+                    <figcaption>Logotipo Brisa Amazônica Headshop</figcaption>
+                </figure>
+            </div>
+            <p>Portfólio Completo</p>
+    </section>
+
+    <section class="contatos" id="contato">
+
+        <h2 class="titulo-section">Contatos</h2>
+
+        <div class="icones-grid">
+            <a target="_blank" href="https://behance.net/hbrpedro">
+                <i class="fab fa-behance-square"></i>
+            </a>
+
+            <a target="_blank" href="https://instagram.com/hbr.pedro">
+                <i class="fab fa-instagram-square"></i>
+            </a>
+
+            <a target="_blank" href="https://facebook.com/hbrpdr">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+
+            <a target="_blank" href="mailto:pedrobarbosabrito@gmail.com">
+                <i class="fas fa-envelope-square"></i>
+            </a>
+        </div>
+
+    </section>
+
+    <footer>
+        <img class="avatar1" src="./img/perfil.jpg" alt="Avatar de Pedro">
+        <h3>Pedro HBr</h3>
+        <p class="texto-rodape">- Desenvolvido na Imersão CSS Alura -</p>
+        <p class="texto-rodape">Corpyright 2020 &copy;</p>
+    </footer>
+
 </body>
 </html>
